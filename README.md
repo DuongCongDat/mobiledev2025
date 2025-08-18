@@ -1,6 +1,5 @@
-USTH ICT Android Development 2025
-========================================
+# USTH ICT Android Development 2025
 
-* **Your ID**
-* **Your name**
-* **Your class**
+* **Your ID: 22BA13063**
+* **Your name: Duong Cong Dat**
+* **Your class: ICT**
