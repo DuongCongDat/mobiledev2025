@@ -16,22 +16,7 @@ public class ForecastFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup containter, Bundle savedInstanceState) {
-
-        LinearLayout linearLayout = new LinearLayout(getActivity());
-        linearLayout.setOrientation(LinearLayout.VERTICAL);
-
-        TextView thurs = new TextView(getActivity());
-        thurs.setText("Thursday");
-
-        ImageView weatherIcon = new ImageView(getActivity());
-        weatherIcon.setImageResource(R.drawable.cloudy);
-
-        linearLayout.setBackgroundColor(0x20FF0000);
-
-        linearLayout.addView(thurs);
-        linearLayout.addView(weatherIcon);
-
-        return linearLayout;
+        return inflater.inflate(R.layout.fragment_forecast, containter, false);
     }
 
 }
