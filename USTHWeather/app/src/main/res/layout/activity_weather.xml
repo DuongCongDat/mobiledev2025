@@ -2,9 +2,18 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical">
 
-    <!-- vùng xanh (WeatherFragment) -->
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/topAppBar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:title="USTH Weather"
+        app:titleTextColor="@android:color/white" />
+
     <fragment
         android:id="@+id/frag_weather"
         android:name="vn.edu.usth.weather.WeatherFragment"
@@ -12,7 +21,7 @@
         android:layout_height="0dp"
         android:layout_weight="1"/>
 
-    <!-- vùng xanh dương nhạt (ForecastFragment) -->
+
     <fragment
         android:id="@+id/frag_forecast"
         android:name="vn.edu.usth.weather.ForecastFragment"

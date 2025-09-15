@@ -7,7 +7,6 @@
     android:layout_height="match_parent"
     tools:context=".ForecastFragment">
 
-
     <LinearLayout
         android:id="@+id/forecast_panel"
         android:layout_width="match_parent"
@@ -19,229 +18,313 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="60dp"
             android:orientation="horizontal"
             android:paddingTop="8dp"
             android:paddingBottom="8dp">
 
             <TextView
-                android:layout_width="0dp"
+                android:layout_width="80dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Mon" />
+                android:text="Mon"
+                android:layout_gravity="center"/>
+
 
             <ImageView
-                android:layout_width="24dp"
-                android:layout_height="24dp"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_weight="1"
                 android:src="@drawable/cloudy"
+                android:layout_gravity="center"
                 android:layout_marginLeft="8dp"
                 android:layout_marginRight="8dp"/>
 
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="2"
-                android:text="Partly Cloudy"/>
-
-            <TextView
+            <LinearLayout
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="24°-31°"/>
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginLeft="20dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Partly Cloudy"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="24°-31°"/>
+            </LinearLayout>
 
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="60dp"
             android:orientation="horizontal"
             android:paddingTop="8dp"
             android:paddingBottom="8dp">
 
             <TextView
-                android:layout_width="0dp"
+                android:layout_width="80dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Tue" />
+                android:text="Tue"
+                android:layout_gravity="center"/>
+
 
             <ImageView
-                android:layout_width="24dp"
-                android:layout_height="24dp"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_weight="1"
                 android:src="@drawable/showers"
+                android:layout_gravity="center"
                 android:layout_marginLeft="8dp"
                 android:layout_marginRight="8dp"/>
 
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="2"
-                android:text="Showers"/>
-
-            <TextView
+            <LinearLayout
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="24°-31°"/>
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginLeft="20dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Showers"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="24°-30°"/>
+            </LinearLayout>
 
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="60dp"
             android:orientation="horizontal"
             android:paddingTop="8dp"
             android:paddingBottom="8dp">
 
             <TextView
-                android:layout_width="0dp"
+                android:layout_width="80dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Wed" />
+                android:text="Wed"
+                android:layout_gravity="center"/>
+
 
             <ImageView
-                android:layout_width="24dp"
-                android:layout_height="24dp"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_weight="1"
                 android:src="@drawable/rain"
+                android:layout_gravity="center"
                 android:layout_marginLeft="8dp"
                 android:layout_marginRight="8dp"/>
 
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="2"
-                android:text="Rain"/>
-
-            <TextView
+            <LinearLayout
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="22°-23°"/>
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginLeft="20dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Rain"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="22°-23°"/>
+            </LinearLayout>
 
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="60dp"
             android:orientation="horizontal"
             android:paddingTop="8dp"
             android:paddingBottom="8dp">
 
             <TextView
-                android:layout_width="0dp"
+                android:layout_width="80dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Thu" />
+                android:text="Thu"
+                android:layout_gravity="center"/>
+
 
             <ImageView
-                android:layout_width="24dp"
-                android:layout_height="24dp"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_weight="1"
                 android:src="@drawable/scatteredshowers"
+                android:layout_gravity="center"
                 android:layout_marginLeft="8dp"
                 android:layout_marginRight="8dp"/>
 
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="2"
-                android:text="Scattered Showers"/>
-
-            <TextView
+            <LinearLayout
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="22°-27°"/>
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginLeft="20dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Scattered Showers"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="22°-27°"/>
+            </LinearLayout>
 
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="60dp"
             android:orientation="horizontal"
             android:paddingTop="8dp"
             android:paddingBottom="8dp">
 
             <TextView
-                android:layout_width="0dp"
+                android:layout_width="80dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Fri" />
+                android:text="Fri"
+                android:layout_gravity="center"/>
+
 
             <ImageView
-                android:layout_width="24dp"
-                android:layout_height="24dp"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_weight="1"
                 android:src="@drawable/cloudy"
+                android:layout_gravity="center"
                 android:layout_marginLeft="8dp"
                 android:layout_marginRight="8dp"/>
 
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="2"
-                android:text="Mostly Cloudy"/>
-
-            <TextView
+            <LinearLayout
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="22°-30°"/>
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginLeft="20dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Mostly Cloudy"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="22°-31°"/>
+            </LinearLayout>
 
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="60dp"
             android:orientation="horizontal"
             android:paddingTop="8dp"
             android:paddingBottom="8dp">
 
             <TextView
-                android:layout_width="0dp"
+                android:layout_width="80dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Sat" />
+                android:text="Sat"
+                android:layout_gravity="center"/>
+
 
             <ImageView
-                android:layout_width="24dp"
-                android:layout_height="24dp"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_weight="1"
                 android:src="@drawable/cloudy"
+                android:layout_gravity="center"
                 android:layout_marginLeft="8dp"
                 android:layout_marginRight="8dp"/>
 
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="2"
-                android:text="Partly Cloudy"/>
-
-            <TextView
+            <LinearLayout
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="24°-31°"/>
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginLeft="20dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Partly Cloudy"/>
 
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="24°-31°"/>
+            </LinearLayout>
 
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="60dp"
             android:orientation="horizontal"
             android:paddingTop="8dp"
             android:paddingBottom="8dp">
 
             <TextView
-                android:layout_width="0dp"
+                android:layout_width="80dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Sun" />
+                android:text="Mon"
+                android:layout_gravity="center"/>
+
 
             <ImageView
-                android:layout_width="24dp"
-                android:layout_height="24dp"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_weight="1"
                 android:src="@drawable/storm"
+                android:layout_gravity="center"
                 android:layout_marginLeft="8dp"
                 android:layout_marginRight="8dp"/>
 
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="2"
-                android:text="Thunderstorms"/>
-
-            <TextView
+            <LinearLayout
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="25°-28°"/>
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginLeft="20dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Thunderstorms"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="23°-27°"/>
+            </LinearLayout>
 
         </LinearLayout>
+
 
     </LinearLayout>
 </LinearLayout>
