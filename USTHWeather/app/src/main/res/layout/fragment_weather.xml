@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#C8E6C9"
-    android:padding="16dp"
+    android:padding="30dp"
     tools:context=".WeatherFragment">
 
     <!-- TODO: Update blank fragment layout -->
@@ -22,7 +22,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Cloudy"
-        android:textSize="20dp"
+        android:textSize="20sp"
         android:layout_below="@id/tvTemp"
         android:layout_alignStart="@id/tvTemp"
         android:layout_marginTop="4dp"/>

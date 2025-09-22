@@ -5,6 +5,7 @@ import android.util.Log;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentTransaction;
+import androidx.viewpager2.widget.ViewPager2;
 
 
 public class WeatherActivity extends AppCompatActivity {
@@ -14,5 +15,8 @@ public class WeatherActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_weather);
-        }
+        ViewPager2 vp = findViewById(R.id.viewPager);
+        vp.setAdapter(new WeatherPagerAdapter(this));
+
+    }
     }
